@@ -1,0 +1,320 @@
+.prueba {
+    color: #fff;
+    /* width: 250px; */
+    width: 40%;
+    /* padding-left: 20px; */
+    height: 80vh; 
+    /*height: max-content;*/
+    
+    background-image: linear-gradient(30deg, #11cf4d, #055e21);
+    border-top-right-radius: 90px;
+    
+  }
+  
+  /* Div header */
+  .prueba h2 {
+    padding: 40px 0 0 0;
+    cursor: pointer;
+  }
+  
+  /* Div links */
+  .prueba a {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    padding: 10px; 
+    padding-left: 30px;
+    text-decoration: none;
+    outline: none;
+    
+  }
+  
+  /* Div link on hover */
+  .prueba a:hover {
+    color: #56ff38;
+    background: #fff;
+    position: relative;
+    background-color: #fff;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    
+  }
+  .prueba dialog{
+    background:linear-gradient(to left ,white,transparent,white); 
+    backdrop-filter: blur(5px);
+    width: 50%;
+    font-weight: bold;
+    
+    position: absolute;
+    top: 30%;
+    margin-right: 5px; 
+  
+    
+    border-radius: 10px;
+    border-width: 1px;
+  }
+
+  .nav{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 50%;
+    padding: 1%;
+    position: absolute;
+    top: 10%;
+    margin-right: 2px
+    
+  
+}
+
+.nav select{
+    background: transparent;
+    backdrop-filter:blur(2px);
+    
+    border-width: 1px;
+    border-color: rgb(119, 251, 119);
+    box-shadow: 0px 0px 3px 3px rgb(119, 251, 119);
+    
+    margin-bottom: 8px;
+   
+    border-radius: 20px;
+   
+}
+.nav select:focus{ 
+    background: linear-gradient(to left ,white,rgb(150, 253, 253),aqua,rgb(150, 253, 253));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:320px),screen and (max-height:568px){
+  .prueba dialog{
+    background:linear-gradient(to left ,white,transparent,white); 
+    backdrop-filter: blur(5px);
+    width: 20%;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    margin-right: 2px;
+    
+  
+    
+    border-radius: 10px;
+    border-width: 1px;
+  }
+
+  
+  .nav{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 50%;
+    padding: 1%;
+    position: absolute;
+    top: 10%;
+    margin-right: 2px
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:360px),screen and (max-height:740px){
+    .prueba dialog{
+        background:linear-gradient(to left ,white,transparent,white); 
+        backdrop-filter: blur(5px);
+        width: 50%;
+        font-weight: bold;
+        position: absolute;
+        top: 30%;
+        margin-right: 2px;
+      
+        
+        border-radius: 10px;
+        border-width: 1px;
+      }
+
+      
+     
+      .nav{
+    
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        width: 50%;
+        padding: 1%;
+        position: absolute;
+        top: 10%;
+        margin-right: 2px
+        
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width:412px)and (min-height:846px){
+    .prueba dialog{
+        background:linear-gradient(to left,white,transparent,white); 
+        backdrop-filter: blur(5px);
+        width: 50%;
+        font-weight: bold;
+        position: absolute;
+        top: 20%;
+        margin-right: 2px;
+      
+        
+        border-radius: 10px;
+        border-width: 1px;
+      }
+
+      
+
+
+
+      .nav{
+    
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        width: 50%;
+        padding: 1%;
+        position: absolute;
+        top: 10%;
+        margin-right: 2px
+        
+      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media(min-width:992px){
+
+  .prueba dialog{
+    background:linear-gradient(to left,white,transparent,white); 
+    backdrop-filter: blur(5px);
+    width: 40%;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    margin-right: 200px;
+    margin-left: auto;
+    
+    
+    border-radius: 10px;
+    border-width: 1px;
+  }
+ 
+
+  .nav{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 50%;
+    padding: 1%;
+    position: absolute;
+    top: 10%;
+    margin-right: 2px
+    
+  
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+  .principal{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+  }
+  #public{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*-----*/
+
+.btnOperations{
+    /* border-radius: 20%;border-color:rgb(119, 251, 119);margin: 1%; */
+    background: transparent;
+    backdrop-filter:blur(2px);
+    margin-right: 2%;
+    border-width: 1px;
+    border-color: rgb(119, 251, 119);
+    box-shadow: 0px 0px 3px 3px rgb(119, 251, 119);
+    margin-bottom: 2%;
+    padding: 5px;
+    border-radius: 5px;
+
+
+  
+}
+
+
+/* .btnOperations:focus{background-color: red;} */
+.btnOperations:focus{ 
+    background: linear-gradient(to left ,white,rgb(150, 253, 253),aqua,rgb(150, 253, 253));
+}
+
+
+.formProductos{
+
+  width:50%;
+  display:flex;
+  flex-direction:column;
+  margin: auto auto;
+
+
+}
+.formProductos input{
+  margin-top:5px;
+  border-radius:10px;
+  padding:1%;
+}

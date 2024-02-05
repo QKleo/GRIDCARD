@@ -41,7 +41,7 @@ export default function Landing(){
 
     return(
         <div>
-            <h3>landing</h3>
+            <h3>Grid Card</h3>
             <div>
                 <select name="user" id="" onChange={(e)=>{handleOnChangeselect(e)}} autoComplete={false}>
                     <option value=""></option>

@@ -58,7 +58,7 @@ export default function Landing(){
             <br />
 
             <div>
-                <input type="text" name="ingreso" value={input} placeholder="Coordenadas Grid Card"
+                <input type="text" name="ingreso" value={input} placeholder="Coordenadas Grid Card" disabled={Card.blank}
                   onChange={(e)=>{handleOnChange(e)}} autoComplete="off" />
                 
                 <li htmlFor="">{local}</li>
